@@ -1,0 +1,991 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		102C61461EBC15F9004FE14B /* WDMJRefresh.m in Sources */ = {isa = PBXBuildFile; fileRef = 102C61451EBC15F9004FE14B /* WDMJRefresh.m */; };
+		102C61491EBC18DD004FE14B /* WDNetworkingTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 102C61481EBC18DD004FE14B /* WDNetworkingTool.m */; };
+		104ADAF41ED2878C00932865 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 104ADAF31ED2878C00932865 /* UIKit.framework */; };
+		104ADAF61ED2879300932865 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 104ADAF51ED2879300932865 /* Foundation.framework */; };
+		104ADAF81ED287AE00932865 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 104ADAF71ED287AE00932865 /* CoreGraphics.framework */; };
+		104ADB191ED5613300932865 /* WDFourthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 104ADB181ED5613300932865 /* WDFourthViewController.m */; };
+		1058D60B1EBAC0BC00E4FE02 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1058D60A1EBAC0BC00E4FE02 /* main.m */; };
+		1058D60E1EBAC0BC00E4FE02 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1058D60D1EBAC0BC00E4FE02 /* AppDelegate.m */; };
+		1058D6141EBAC0BC00E4FE02 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1058D6121EBAC0BC00E4FE02 /* Main.storyboard */; };
+		1058D6171EBAC0BC00E4FE02 /* liudaliuda.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1058D6151EBAC0BC00E4FE02 /* liudaliuda.xcdatamodeld */; };
+		1058D6191EBAC0BC00E4FE02 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1058D6181EBAC0BC00E4FE02 /* Assets.xcassets */; };
+		1058D61C1EBAC0BC00E4FE02 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1058D61A1EBAC0BC00E4FE02 /* LaunchScreen.storyboard */; };
+		1058D6271EBAC0BC00E4FE02 /* liudaliudaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1058D6261EBAC0BC00E4FE02 /* liudaliudaTests.m */; };
+		1058D6321EBAC0BC00E4FE02 /* liudaliudaUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1058D6311EBAC0BC00E4FE02 /* liudaliudaUITests.m */; };
+		1058D64E1EBB088F00E4FE02 /* WDLoadFirstClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 1058D64D1EBB088F00E4FE02 /* WDLoadFirstClass.m */; };
+		1058D6511EBB08FB00E4FE02 /* WDTabbar.m in Sources */ = {isa = PBXBuildFile; fileRef = 1058D6501EBB08FB00E4FE02 /* WDTabbar.m */; };
+		1058D6531EBB092200E4FE02 /* WDTabbar.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1058D6521EBB092200E4FE02 /* WDTabbar.plist */; };
+		1058D6561EBB0A8E00E4FE02 /* WDFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1058D6551EBB0A8E00E4FE02 /* WDFirstViewController.m */; };
+		1058D6591EBB0A9C00E4FE02 /* WDSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1058D6581EBB0A9C00E4FE02 /* WDSecondViewController.m */; };
+		1058D65C1EBB0AAB00E4FE02 /* WDThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1058D65B1EBB0AAB00E4FE02 /* WDThirdViewController.m */; };
+		1058D65F1EBB0B8100E4FE02 /* WDNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1058D65E1EBB0B8100E4FE02 /* WDNavigationController.m */; };
+		56BF5674EB7639A3BFB08786 /* Pods_liudaliuda.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8820DFD74F59F9FD02D7351 /* Pods_liudaliuda.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1058D6231EBAC0BC00E4FE02 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1058D5FE1EBAC0BC00E4FE02 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1058D6051EBAC0BC00E4FE02;
+			remoteInfo = liudaliuda;
+		};
+		1058D62E1EBAC0BC00E4FE02 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1058D5FE1EBAC0BC00E4FE02 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1058D6051EBAC0BC00E4FE02;
+			remoteInfo = liudaliuda;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		102C61441EBC15F9004FE14B /* WDMJRefresh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WDMJRefresh.h; sourceTree = "<group>"; };
+		102C61451EBC15F9004FE14B /* WDMJRefresh.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WDMJRefresh.m; sourceTree = "<group>"; };
+		102C61471EBC18DD004FE14B /* WDNetworkingTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WDNetworkingTool.h; sourceTree = "<group>"; };
+		102C61481EBC18DD004FE14B /* WDNetworkingTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WDNetworkingTool.m; sourceTree = "<group>"; };
+		104ADAF31ED2878C00932865 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		104ADAF51ED2879300932865 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		104ADAF71ED287AE00932865 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		104ADB171ED5613300932865 /* WDFourthViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WDFourthViewController.h; sourceTree = "<group>"; };
+		104ADB181ED5613300932865 /* WDFourthViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WDFourthViewController.m; sourceTree = "<group>"; };
+		105022E41EC2B00B00E459CB /* WDGlobalDefine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WDGlobalDefine.h; sourceTree = "<group>"; };
+		1058D6061EBAC0BC00E4FE02 /* liudaliuda.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = liudaliuda.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1058D60A1EBAC0BC00E4FE02 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1058D60C1EBAC0BC00E4FE02 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1058D60D1EBAC0BC00E4FE02 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1058D6131EBAC0BC00E4FE02 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1058D6161EBAC0BC00E4FE02 /* liudaliuda.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = liudaliuda.xcdatamodel; sourceTree = "<group>"; };
+		1058D6181EBAC0BC00E4FE02 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1058D61B1EBAC0BC00E4FE02 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1058D61D1EBAC0BC00E4FE02 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1058D6221EBAC0BC00E4FE02 /* liudaliudaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = liudaliudaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1058D6261EBAC0BC00E4FE02 /* liudaliudaTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = liudaliudaTests.m; sourceTree = "<group>"; };
+		1058D6281EBAC0BC00E4FE02 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1058D62D1EBAC0BC00E4FE02 /* liudaliudaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = liudaliudaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1058D6311EBAC0BC00E4FE02 /* liudaliudaUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = liudaliudaUITests.m; sourceTree = "<group>"; };
+		1058D6331EBAC0BC00E4FE02 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1058D64C1EBB088F00E4FE02 /* WDLoadFirstClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WDLoadFirstClass.h; sourceTree = "<group>"; };
+		1058D64D1EBB088F00E4FE02 /* WDLoadFirstClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WDLoadFirstClass.m; sourceTree = "<group>"; };
+		1058D64F1EBB08FB00E4FE02 /* WDTabbar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WDTabbar.h; sourceTree = "<group>"; };
+		1058D6501EBB08FB00E4FE02 /* WDTabbar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WDTabbar.m; sourceTree = "<group>"; };
+		1058D6521EBB092200E4FE02 /* WDTabbar.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = WDTabbar.plist; sourceTree = "<group>"; };
+		1058D6541EBB0A8E00E4FE02 /* WDFirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WDFirstViewController.h; path = ../WDFirstViewController.h; sourceTree = "<group>"; };
+		1058D6551EBB0A8E00E4FE02 /* WDFirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WDFirstViewController.m; path = ../WDFirstViewController.m; sourceTree = "<group>"; };
+		1058D6571EBB0A9C00E4FE02 /* WDSecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WDSecondViewController.h; path = ../WDSecondViewController.h; sourceTree = "<group>"; };
+		1058D6581EBB0A9C00E4FE02 /* WDSecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WDSecondViewController.m; path = ../WDSecondViewController.m; sourceTree = "<group>"; };
+		1058D65A1EBB0AAB00E4FE02 /* WDThirdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WDThirdViewController.h; path = ../WDThirdViewController.h; sourceTree = "<group>"; };
+		1058D65B1EBB0AAB00E4FE02 /* WDThirdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WDThirdViewController.m; path = ../WDThirdViewController.m; sourceTree = "<group>"; };
+		1058D65D1EBB0B8100E4FE02 /* WDNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WDNavigationController.h; sourceTree = "<group>"; };
+		1058D65E1EBB0B8100E4FE02 /* WDNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WDNavigationController.m; sourceTree = "<group>"; };
+		1058D6631EBB0F7700E4FE02 /* liudaliuda-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "liudaliuda-Prefix.pch"; sourceTree = SOURCE_ROOT; };
+		1071560C1F2B077A00F0E774 /* FirstNetworkingTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstNetworkingTool.h; sourceTree = "<group>"; };
+		1071560D1F2B07D100F0E774 /* SecondNetworkingTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondNetworkingTool.h; sourceTree = "<group>"; };
+		1071560E1F2B0B3000F0E774 /* ThirdNetworkingTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThirdNetworkingTool.h; sourceTree = "<group>"; };
+		1071560F1F2B0B7900F0E774 /* FourthNetworkingTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FourthNetworkingTool.h; sourceTree = "<group>"; };
+		636440E0CF6453E6B4F19E26 /* Pods-liudaliuda.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-liudaliuda.release.xcconfig"; path = "Pods/Target Support Files/Pods-liudaliuda/Pods-liudaliuda.release.xcconfig"; sourceTree = "<group>"; };
+		8083CA170BEBF149F5A49E8A /* Pods-liudaliuda.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-liudaliuda.debug.xcconfig"; path = "Pods/Target Support Files/Pods-liudaliuda/Pods-liudaliuda.debug.xcconfig"; sourceTree = "<group>"; };
+		D8820DFD74F59F9FD02D7351 /* Pods_liudaliuda.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_liudaliuda.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1058D6031EBAC0BC00E4FE02 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				104ADAF81ED287AE00932865 /* CoreGraphics.framework in Frameworks */,
+				104ADAF61ED2879300932865 /* Foundation.framework in Frameworks */,
+				104ADAF41ED2878C00932865 /* UIKit.framework in Frameworks */,
+				56BF5674EB7639A3BFB08786 /* Pods_liudaliuda.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1058D61F1EBAC0BC00E4FE02 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1058D62A1EBAC0BC00E4FE02 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		102C61431EBC1574004FE14B /* WDRefresh */ = {
+			isa = PBXGroup;
+			children = (
+				102C61441EBC15F9004FE14B /* WDMJRefresh.h */,
+				102C61451EBC15F9004FE14B /* WDMJRefresh.m */,
+			);
+			path = WDRefresh;
+			sourceTree = "<group>";
+		};
+		104ADB121ED560F900932865 /* FourthTab */ = {
+			isa = PBXGroup;
+			children = (
+				104ADB131ED560F900932865 /* Model */,
+				104ADB141ED560F900932865 /* View */,
+				104ADB151ED560F900932865 /* ViewController */,
+				104ADB161ED560F900932865 /* ViewModel */,
+			);
+			path = FourthTab;
+			sourceTree = "<group>";
+		};
+		104ADB131ED560F900932865 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1071560F1F2B0B7900F0E774 /* FourthNetworkingTool.h */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		104ADB141ED560F900932865 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		104ADB151ED560F900932865 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				104ADB171ED5613300932865 /* WDFourthViewController.h */,
+				104ADB181ED5613300932865 /* WDFourthViewController.m */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		104ADB161ED560F900932865 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		1058D5FD1EBAC0BC00E4FE02 = {
+			isa = PBXGroup;
+			children = (
+				1058D63F1EBAC57400E4FE02 /* Code */,
+				1058D6081EBAC0BC00E4FE02 /* liudaliuda */,
+				1058D6251EBAC0BC00E4FE02 /* liudaliudaTests */,
+				1058D6301EBAC0BC00E4FE02 /* liudaliudaUITests */,
+				1058D6071EBAC0BC00E4FE02 /* Products */,
+				7E75D091771BD54660083FE7 /* Pods */,
+				4A7179930AE41487CE72601B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		1058D6071EBAC0BC00E4FE02 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1058D6061EBAC0BC00E4FE02 /* liudaliuda.app */,
+				1058D6221EBAC0BC00E4FE02 /* liudaliudaTests.xctest */,
+				1058D62D1EBAC0BC00E4FE02 /* liudaliudaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1058D6081EBAC0BC00E4FE02 /* liudaliuda */ = {
+			isa = PBXGroup;
+			children = (
+				1058D60C1EBAC0BC00E4FE02 /* AppDelegate.h */,
+				1058D60D1EBAC0BC00E4FE02 /* AppDelegate.m */,
+				1058D6121EBAC0BC00E4FE02 /* Main.storyboard */,
+				1058D6181EBAC0BC00E4FE02 /* Assets.xcassets */,
+				1058D61A1EBAC0BC00E4FE02 /* LaunchScreen.storyboard */,
+				1058D61D1EBAC0BC00E4FE02 /* Info.plist */,
+				1058D6151EBAC0BC00E4FE02 /* liudaliuda.xcdatamodeld */,
+				1058D6091EBAC0BC00E4FE02 /* Supporting Files */,
+			);
+			path = liudaliuda;
+			sourceTree = "<group>";
+		};
+		1058D6091EBAC0BC00E4FE02 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1058D6631EBB0F7700E4FE02 /* liudaliuda-Prefix.pch */,
+				1058D60A1EBAC0BC00E4FE02 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1058D6251EBAC0BC00E4FE02 /* liudaliudaTests */ = {
+			isa = PBXGroup;
+			children = (
+				1058D6261EBAC0BC00E4FE02 /* liudaliudaTests.m */,
+				1058D6281EBAC0BC00E4FE02 /* Info.plist */,
+			);
+			path = liudaliudaTests;
+			sourceTree = "<group>";
+		};
+		1058D6301EBAC0BC00E4FE02 /* liudaliudaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1058D6311EBAC0BC00E4FE02 /* liudaliudaUITests.m */,
+				1058D6331EBAC0BC00E4FE02 /* Info.plist */,
+			);
+			path = liudaliudaUITests;
+			sourceTree = "<group>";
+		};
+		1058D63F1EBAC57400E4FE02 /* Code */ = {
+			isa = PBXGroup;
+			children = (
+				1058D6401EBAC57400E4FE02 /* Classes */,
+				1058D6411EBAC57400E4FE02 /* Library */,
+			);
+			path = Code;
+			sourceTree = "<group>";
+		};
+		1058D6401EBAC57400E4FE02 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				1058D6441EBAC5EF00E4FE02 /* Main */,
+				1058D6431EBAC5EF00E4FE02 /* FirstTab */,
+				1058D6451EBAC5EF00E4FE02 /* SecondTab */,
+				1058D6461EBAC5EF00E4FE02 /* ThirdTab */,
+				104ADB121ED560F900932865 /* FourthTab */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		1058D6411EBAC57400E4FE02 /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				1058D6491EBB07AA00E4FE02 /* WDRootViewController */,
+				1058D6481EBAC92D00E4FE02 /* WDTools */,
+				1058D6471EBAC6E300E4FE02 /* WDNetWorking */,
+			);
+			path = Library;
+			sourceTree = "<group>";
+		};
+		1058D6431EBAC5EF00E4FE02 /* FirstTab */ = {
+			isa = PBXGroup;
+			children = (
+				10897F781EBFFDF800867D50 /* Model */,
+				10897F791EBFFDF800867D50 /* View */,
+				10897F7A1EBFFDF800867D50 /* ViewController */,
+				10897F7B1EBFFDF800867D50 /* ViewModel */,
+			);
+			path = FirstTab;
+			sourceTree = "<group>";
+		};
+		1058D6441EBAC5EF00E4FE02 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				1058D64B1EBB082B00E4FE02 /* WDNavigationController */,
+				1058D64A1EBB07B400E4FE02 /* WDTabbar */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		1058D6451EBAC5EF00E4FE02 /* SecondTab */ = {
+			isa = PBXGroup;
+			children = (
+				10897F7C1EBFFE0800867D50 /* Model */,
+				10897F7D1EBFFE0800867D50 /* View */,
+				10897F7E1EBFFE0800867D50 /* ViewController */,
+				10897F7F1EBFFE0800867D50 /* ViewModel */,
+			);
+			path = SecondTab;
+			sourceTree = "<group>";
+		};
+		1058D6461EBAC5EF00E4FE02 /* ThirdTab */ = {
+			isa = PBXGroup;
+			children = (
+				10897F801EBFFE1100867D50 /* Model */,
+				10897F811EBFFE1100867D50 /* View */,
+				10897F821EBFFE1100867D50 /* ViewController */,
+				10897F831EBFFE1100867D50 /* ViewModel */,
+			);
+			path = ThirdTab;
+			sourceTree = "<group>";
+		};
+		1058D6471EBAC6E300E4FE02 /* WDNetWorking */ = {
+			isa = PBXGroup;
+			children = (
+				102C61471EBC18DD004FE14B /* WDNetworkingTool.h */,
+				102C61481EBC18DD004FE14B /* WDNetworkingTool.m */,
+			);
+			path = WDNetWorking;
+			sourceTree = "<group>";
+		};
+		1058D6481EBAC92D00E4FE02 /* WDTools */ = {
+			isa = PBXGroup;
+			children = (
+				102C61431EBC1574004FE14B /* WDRefresh */,
+				105022E41EC2B00B00E459CB /* WDGlobalDefine.h */,
+			);
+			path = WDTools;
+			sourceTree = "<group>";
+		};
+		1058D6491EBB07AA00E4FE02 /* WDRootViewController */ = {
+			isa = PBXGroup;
+			children = (
+				1058D64C1EBB088F00E4FE02 /* WDLoadFirstClass.h */,
+				1058D64D1EBB088F00E4FE02 /* WDLoadFirstClass.m */,
+			);
+			path = WDRootViewController;
+			sourceTree = "<group>";
+		};
+		1058D64A1EBB07B400E4FE02 /* WDTabbar */ = {
+			isa = PBXGroup;
+			children = (
+				1058D64F1EBB08FB00E4FE02 /* WDTabbar.h */,
+				1058D6501EBB08FB00E4FE02 /* WDTabbar.m */,
+				1058D6521EBB092200E4FE02 /* WDTabbar.plist */,
+			);
+			path = WDTabbar;
+			sourceTree = "<group>";
+		};
+		1058D64B1EBB082B00E4FE02 /* WDNavigationController */ = {
+			isa = PBXGroup;
+			children = (
+				1058D65D1EBB0B8100E4FE02 /* WDNavigationController.h */,
+				1058D65E1EBB0B8100E4FE02 /* WDNavigationController.m */,
+			);
+			path = WDNavigationController;
+			sourceTree = "<group>";
+		};
+		10897F781EBFFDF800867D50 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1071560C1F2B077A00F0E774 /* FirstNetworkingTool.h */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		10897F791EBFFDF800867D50 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		10897F7A1EBFFDF800867D50 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				1058D6541EBB0A8E00E4FE02 /* WDFirstViewController.h */,
+				1058D6551EBB0A8E00E4FE02 /* WDFirstViewController.m */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		10897F7B1EBFFDF800867D50 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		10897F7C1EBFFE0800867D50 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1071560D1F2B07D100F0E774 /* SecondNetworkingTool.h */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		10897F7D1EBFFE0800867D50 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		10897F7E1EBFFE0800867D50 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				1058D6571EBB0A9C00E4FE02 /* WDSecondViewController.h */,
+				1058D6581EBB0A9C00E4FE02 /* WDSecondViewController.m */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		10897F7F1EBFFE0800867D50 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		10897F801EBFFE1100867D50 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1071560E1F2B0B3000F0E774 /* ThirdNetworkingTool.h */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		10897F811EBFFE1100867D50 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		10897F821EBFFE1100867D50 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				1058D65A1EBB0AAB00E4FE02 /* WDThirdViewController.h */,
+				1058D65B1EBB0AAB00E4FE02 /* WDThirdViewController.m */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		10897F831EBFFE1100867D50 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		4A7179930AE41487CE72601B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				104ADAF71ED287AE00932865 /* CoreGraphics.framework */,
+				104ADAF51ED2879300932865 /* Foundation.framework */,
+				104ADAF31ED2878C00932865 /* UIKit.framework */,
+				D8820DFD74F59F9FD02D7351 /* Pods_liudaliuda.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7E75D091771BD54660083FE7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8083CA170BEBF149F5A49E8A /* Pods-liudaliuda.debug.xcconfig */,
+				636440E0CF6453E6B4F19E26 /* Pods-liudaliuda.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1058D6051EBAC0BC00E4FE02 /* liudaliuda */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1058D6361EBAC0BC00E4FE02 /* Build configuration list for PBXNativeTarget "liudaliuda" */;
+			buildPhases = (
+				9CADC51161E1288319DD2B4D /* [CP] Check Pods Manifest.lock */,
+				1058D6021EBAC0BC00E4FE02 /* Sources */,
+				1058D6031EBAC0BC00E4FE02 /* Frameworks */,
+				1058D6041EBAC0BC00E4FE02 /* Resources */,
+				7FDB563DF193AF433D272EAF /* [CP] Embed Pods Frameworks */,
+				36C0B96E044CB0E292F40D33 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = liudaliuda;
+			productName = liudaliuda;
+			productReference = 1058D6061EBAC0BC00E4FE02 /* liudaliuda.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1058D6211EBAC0BC00E4FE02 /* liudaliudaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1058D6391EBAC0BC00E4FE02 /* Build configuration list for PBXNativeTarget "liudaliudaTests" */;
+			buildPhases = (
+				1058D61E1EBAC0BC00E4FE02 /* Sources */,
+				1058D61F1EBAC0BC00E4FE02 /* Frameworks */,
+				1058D6201EBAC0BC00E4FE02 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1058D6241EBAC0BC00E4FE02 /* PBXTargetDependency */,
+			);
+			name = liudaliudaTests;
+			productName = liudaliudaTests;
+			productReference = 1058D6221EBAC0BC00E4FE02 /* liudaliudaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1058D62C1EBAC0BC00E4FE02 /* liudaliudaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1058D63C1EBAC0BC00E4FE02 /* Build configuration list for PBXNativeTarget "liudaliudaUITests" */;
+			buildPhases = (
+				1058D6291EBAC0BC00E4FE02 /* Sources */,
+				1058D62A1EBAC0BC00E4FE02 /* Frameworks */,
+				1058D62B1EBAC0BC00E4FE02 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1058D62F1EBAC0BC00E4FE02 /* PBXTargetDependency */,
+			);
+			name = liudaliudaUITests;
+			productName = liudaliudaUITests;
+			productReference = 1058D62D1EBAC0BC00E4FE02 /* liudaliudaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1058D5FE1EBAC0BC00E4FE02 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = WD;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "4WheelDrive-iOS";
+				TargetAttributes = {
+					1058D6051EBAC0BC00E4FE02 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = DMF7UC8DYK;
+						ProvisioningStyle = Automatic;
+					};
+					1058D6211EBAC0BC00E4FE02 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 1058D6051EBAC0BC00E4FE02;
+					};
+					1058D62C1EBAC0BC00E4FE02 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 1058D6051EBAC0BC00E4FE02;
+					};
+				};
+			};
+			buildConfigurationList = 1058D6011EBAC0BC00E4FE02 /* Build configuration list for PBXProject "liudaliuda" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1058D5FD1EBAC0BC00E4FE02;
+			productRefGroup = 1058D6071EBAC0BC00E4FE02 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1058D6051EBAC0BC00E4FE02 /* liudaliuda */,
+				1058D6211EBAC0BC00E4FE02 /* liudaliudaTests */,
+				1058D62C1EBAC0BC00E4FE02 /* liudaliudaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1058D6041EBAC0BC00E4FE02 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1058D61C1EBAC0BC00E4FE02 /* LaunchScreen.storyboard in Resources */,
+				1058D6191EBAC0BC00E4FE02 /* Assets.xcassets in Resources */,
+				1058D6141EBAC0BC00E4FE02 /* Main.storyboard in Resources */,
+				1058D6531EBB092200E4FE02 /* WDTabbar.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1058D6201EBAC0BC00E4FE02 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1058D62B1EBAC0BC00E4FE02 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		36C0B96E044CB0E292F40D33 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-liudaliuda/Pods-liudaliuda-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7FDB563DF193AF433D272EAF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-liudaliuda/Pods-liudaliuda-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9CADC51161E1288319DD2B4D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1058D6021EBAC0BC00E4FE02 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1058D6561EBB0A8E00E4FE02 /* WDFirstViewController.m in Sources */,
+				1058D6171EBAC0BC00E4FE02 /* liudaliuda.xcdatamodeld in Sources */,
+				104ADB191ED5613300932865 /* WDFourthViewController.m in Sources */,
+				1058D60E1EBAC0BC00E4FE02 /* AppDelegate.m in Sources */,
+				102C61491EBC18DD004FE14B /* WDNetworkingTool.m in Sources */,
+				1058D64E1EBB088F00E4FE02 /* WDLoadFirstClass.m in Sources */,
+				1058D65F1EBB0B8100E4FE02 /* WDNavigationController.m in Sources */,
+				1058D6591EBB0A9C00E4FE02 /* WDSecondViewController.m in Sources */,
+				1058D6511EBB08FB00E4FE02 /* WDTabbar.m in Sources */,
+				1058D60B1EBAC0BC00E4FE02 /* main.m in Sources */,
+				1058D65C1EBB0AAB00E4FE02 /* WDThirdViewController.m in Sources */,
+				102C61461EBC15F9004FE14B /* WDMJRefresh.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1058D61E1EBAC0BC00E4FE02 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1058D6271EBAC0BC00E4FE02 /* liudaliudaTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1058D6291EBAC0BC00E4FE02 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1058D6321EBAC0BC00E4FE02 /* liudaliudaUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1058D6241EBAC0BC00E4FE02 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1058D6051EBAC0BC00E4FE02 /* liudaliuda */;
+			targetProxy = 1058D6231EBAC0BC00E4FE02 /* PBXContainerItemProxy */;
+		};
+		1058D62F1EBAC0BC00E4FE02 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1058D6051EBAC0BC00E4FE02 /* liudaliuda */;
+			targetProxy = 1058D62E1EBAC0BC00E4FE02 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1058D6121EBAC0BC00E4FE02 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1058D6131EBAC0BC00E4FE02 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1058D61A1EBAC0BC00E4FE02 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1058D61B1EBAC0BC00E4FE02 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1058D6341EBAC0BC00E4FE02 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1058D6351EBAC0BC00E4FE02 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1058D6371EBAC0BC00E4FE02 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8083CA170BEBF149F5A49E8A /* Pods-liudaliuda.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = DMF7UC8DYK;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/liudaliuda-Prefix.pch";
+				INFOPLIST_FILE = liudaliuda/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-framework",
+					"\"AFNetworking\"",
+					"-framework",
+					"\"IQKeyboardManager\"",
+					"-framework",
+					"\"MBProgressHUD\"",
+					"-framework",
+					"\"MJExtension\"",
+					"-framework",
+					"\"MJRefresh\"",
+					"-framework",
+					"\"SDCycleScrollView\"",
+					"-framework",
+					"\"SDWebImage\"",
+					"-framework",
+					"\"SVProgressHUD\"",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.4wheeldrive.liudaliuda;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1058D6381EBAC0BC00E4FE02 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 636440E0CF6453E6B4F19E26 /* Pods-liudaliuda.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = DMF7UC8DYK;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/liudaliuda-Prefix.pch";
+				INFOPLIST_FILE = liudaliuda/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-framework",
+					"\"AFNetworking\"",
+					"-framework",
+					"\"IQKeyboardManager\"",
+					"-framework",
+					"\"MBProgressHUD\"",
+					"-framework",
+					"\"MJExtension\"",
+					"-framework",
+					"\"MJRefresh\"",
+					"-framework",
+					"\"SDCycleScrollView\"",
+					"-framework",
+					"\"SDWebImage\"",
+					"-framework",
+					"\"SVProgressHUD\"",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.4wheeldrive.liudaliuda;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		1058D63A1EBAC0BC00E4FE02 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = liudaliudaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.4wheeldrive.liudaliudaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/liudaliuda.app/liudaliuda";
+			};
+			name = Debug;
+		};
+		1058D63B1EBAC0BC00E4FE02 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = liudaliudaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.4wheeldrive.liudaliudaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/liudaliuda.app/liudaliuda";
+			};
+			name = Release;
+		};
+		1058D63D1EBAC0BC00E4FE02 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = liudaliudaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.4wheeldrive.liudaliudaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = liudaliuda;
+			};
+			name = Debug;
+		};
+		1058D63E1EBAC0BC00E4FE02 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = liudaliudaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.4wheeldrive.liudaliudaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = liudaliuda;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1058D6011EBAC0BC00E4FE02 /* Build configuration list for PBXProject "liudaliuda" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1058D6341EBAC0BC00E4FE02 /* Debug */,
+				1058D6351EBAC0BC00E4FE02 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1058D6361EBAC0BC00E4FE02 /* Build configuration list for PBXNativeTarget "liudaliuda" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1058D6371EBAC0BC00E4FE02 /* Debug */,
+				1058D6381EBAC0BC00E4FE02 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1058D6391EBAC0BC00E4FE02 /* Build configuration list for PBXNativeTarget "liudaliudaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1058D63A1EBAC0BC00E4FE02 /* Debug */,
+				1058D63B1EBAC0BC00E4FE02 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1058D63C1EBAC0BC00E4FE02 /* Build configuration list for PBXNativeTarget "liudaliudaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1058D63D1EBAC0BC00E4FE02 /* Debug */,
+				1058D63E1EBAC0BC00E4FE02 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		1058D6151EBAC0BC00E4FE02 /* liudaliuda.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				1058D6161EBAC0BC00E4FE02 /* liudaliuda.xcdatamodel */,
+			);
+			currentVersion = 1058D6161EBAC0BC00E4FE02 /* liudaliuda.xcdatamodel */;
+			path = liudaliuda.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 1058D5FE1EBAC0BC00E4FE02 /* Project object */;
+}
