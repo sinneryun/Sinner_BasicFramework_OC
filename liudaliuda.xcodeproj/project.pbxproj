@@ -26,7 +26,6 @@
 		1058D6531EBB092200E4FE02 /* WDTabbar.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1058D6521EBB092200E4FE02 /* WDTabbar.plist */; };
 		1058D6561EBB0A8E00E4FE02 /* WDFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1058D6551EBB0A8E00E4FE02 /* WDFirstViewController.m */; };
 		1058D6591EBB0A9C00E4FE02 /* WDSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1058D6581EBB0A9C00E4FE02 /* WDSecondViewController.m */; };
-		1058D65C1EBB0AAB00E4FE02 /* WDThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1058D65B1EBB0AAB00E4FE02 /* WDThirdViewController.m */; };
 		1058D65F1EBB0B8100E4FE02 /* WDNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1058D65E1EBB0B8100E4FE02 /* WDNavigationController.m */; };
 		56BF5674EB7639A3BFB08786 /* Pods_liudaliuda.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8820DFD74F59F9FD02D7351 /* Pods_liudaliuda.framework */; };
 /* End PBXBuildFile section */
@@ -83,8 +82,6 @@
 		1058D6551EBB0A8E00E4FE02 /* WDFirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WDFirstViewController.m; path = ../WDFirstViewController.m; sourceTree = "<group>"; };
 		1058D6571EBB0A9C00E4FE02 /* WDSecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WDSecondViewController.h; path = ../WDSecondViewController.h; sourceTree = "<group>"; };
 		1058D6581EBB0A9C00E4FE02 /* WDSecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WDSecondViewController.m; path = ../WDSecondViewController.m; sourceTree = "<group>"; };
-		1058D65A1EBB0AAB00E4FE02 /* WDThirdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WDThirdViewController.h; path = ../WDThirdViewController.h; sourceTree = "<group>"; };
-		1058D65B1EBB0AAB00E4FE02 /* WDThirdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WDThirdViewController.m; path = ../WDThirdViewController.m; sourceTree = "<group>"; };
 		1058D65D1EBB0B8100E4FE02 /* WDNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WDNavigationController.h; sourceTree = "<group>"; };
 		1058D65E1EBB0B8100E4FE02 /* WDNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WDNavigationController.m; sourceTree = "<group>"; };
 		1058D6631EBB0F7700E4FE02 /* liudaliuda-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "liudaliuda-Prefix.pch"; sourceTree = SOURCE_ROOT; };
@@ -138,10 +135,10 @@
 		104ADB121ED560F900932865 /* FourthTab */ = {
 			isa = PBXGroup;
 			children = (
+				10F0D0C31FF49396001B8DB9 /* View */,
+				10F0D0C01FF49366001B8DB9 /* ViewModel */,
 				104ADB131ED560F900932865 /* Model */,
-				104ADB141ED560F900932865 /* View */,
 				104ADB151ED560F900932865 /* ViewController */,
-				104ADB161ED560F900932865 /* ViewModel */,
 			);
 			path = FourthTab;
 			sourceTree = "<group>";
@@ -154,13 +151,6 @@
 			path = Model;
 			sourceTree = "<group>";
 		};
-		104ADB141ED560F900932865 /* View */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = View;
-			sourceTree = "<group>";
-		};
 		104ADB151ED560F900932865 /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
@@ -168,13 +158,6 @@
 				104ADB181ED5613300932865 /* WDFourthViewController.m */,
 			);
 			path = ViewController;
-			sourceTree = "<group>";
-		};
-		104ADB161ED560F900932865 /* ViewModel */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = ViewModel;
 			sourceTree = "<group>";
 		};
 		1058D5FD1EBAC0BC00E4FE02 = {
@@ -276,10 +259,10 @@
 		1058D6431EBAC5EF00E4FE02 /* FirstTab */ = {
 			isa = PBXGroup;
 			children = (
+				10F0D0BD1FF49350001B8DB9 /* ViewModel */,
 				10897F781EBFFDF800867D50 /* Model */,
 				10897F791EBFFDF800867D50 /* View */,
 				10897F7A1EBFFDF800867D50 /* ViewController */,
-				10897F7B1EBFFDF800867D50 /* ViewModel */,
 			);
 			path = FirstTab;
 			sourceTree = "<group>";
@@ -296,10 +279,10 @@
 		1058D6451EBAC5EF00E4FE02 /* SecondTab */ = {
 			isa = PBXGroup;
 			children = (
+				10F0D0BE1FF4935D001B8DB9 /* ViewModel */,
 				10897F7C1EBFFE0800867D50 /* Model */,
 				10897F7D1EBFFE0800867D50 /* View */,
 				10897F7E1EBFFE0800867D50 /* ViewController */,
-				10897F7F1EBFFE0800867D50 /* ViewModel */,
 			);
 			path = SecondTab;
 			sourceTree = "<group>";
@@ -307,10 +290,10 @@
 		1058D6461EBAC5EF00E4FE02 /* ThirdTab */ = {
 			isa = PBXGroup;
 			children = (
+				10F0D0C41FF493A3001B8DB9 /* ViewController */,
+				10F0D0C21FF49390001B8DB9 /* View */,
+				10F0D0BF1FF49362001B8DB9 /* ViewModel */,
 				10897F801EBFFE1100867D50 /* Model */,
-				10897F811EBFFE1100867D50 /* View */,
-				10897F821EBFFE1100867D50 /* ViewController */,
-				10897F831EBFFE1100867D50 /* ViewModel */,
 			);
 			path = ThirdTab;
 			sourceTree = "<group>";
@@ -385,13 +368,6 @@
 			path = ViewController;
 			sourceTree = "<group>";
 		};
-		10897F7B1EBFFDF800867D50 /* ViewModel */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = ViewModel;
-			sourceTree = "<group>";
-		};
 		10897F7C1EBFFE0800867D50 /* Model */ = {
 			isa = PBXGroup;
 			children = (
@@ -416,13 +392,6 @@
 			path = ViewController;
 			sourceTree = "<group>";
 		};
-		10897F7F1EBFFE0800867D50 /* ViewModel */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = ViewModel;
-			sourceTree = "<group>";
-		};
 		10897F801EBFFE1100867D50 /* Model */ = {
 			isa = PBXGroup;
 			children = (
@@ -431,27 +400,53 @@
 			path = Model;
 			sourceTree = "<group>";
 		};
-		10897F811EBFFE1100867D50 /* View */ = {
+		10F0D0BD1FF49350001B8DB9 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		10F0D0BE1FF4935D001B8DB9 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		10F0D0BF1FF49362001B8DB9 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		10F0D0C01FF49366001B8DB9 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		10F0D0C21FF49390001B8DB9 /* View */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			path = View;
 			sourceTree = "<group>";
 		};
-		10897F821EBFFE1100867D50 /* ViewController */ = {
+		10F0D0C31FF49396001B8DB9 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				1058D65A1EBB0AAB00E4FE02 /* WDThirdViewController.h */,
-				1058D65B1EBB0AAB00E4FE02 /* WDThirdViewController.m */,
 			);
-			path = ViewController;
+			path = View;
 			sourceTree = "<group>";
 		};
-		10897F831EBFFE1100867D50 /* ViewModel */ = {
+		10F0D0C41FF493A3001B8DB9 /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
 			);
-			path = ViewModel;
+			path = ViewController;
 			sourceTree = "<group>";
 		};
 		4A7179930AE41487CE72601B /* Frameworks */ = {
@@ -671,7 +666,6 @@
 				1058D6591EBB0A9C00E4FE02 /* WDSecondViewController.m in Sources */,
 				1058D6511EBB08FB00E4FE02 /* WDTabbar.m in Sources */,
 				1058D60B1EBAC0BC00E4FE02 /* main.m in Sources */,
-				1058D65C1EBB0AAB00E4FE02 /* WDThirdViewController.m in Sources */,
 				102C61461EBC15F9004FE14B /* WDMJRefresh.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

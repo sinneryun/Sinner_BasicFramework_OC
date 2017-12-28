@@ -64,7 +64,9 @@ static  WDTabbar *_sharedMyTabbar;
         WDNavigationController *nav = [[WDNavigationController alloc]initWithRootViewController:[vcs objectAtIndex:i]];
         
         //图片防止被渲染
-        nav.tabBarItem.image = [UIImage imageNamed:[[arr objectAtIndex:i]objectForKey:@"imgN"]];
+        UIImage *image1 = [UIImage imageNamed:[[arr objectAtIndex:i]objectForKey:@"imgN"]];
+        image1 = [image1 imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
+        nav.tabBarItem.image = image1;
         UIImage *image = [UIImage imageNamed:[[arr objectAtIndex:i]objectForKey:@"sel_imgN"]];
         image = [image imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
         nav.tabBarItem.selectedImage = image;
